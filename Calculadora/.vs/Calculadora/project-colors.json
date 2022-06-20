@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff737bfc-a948-4338-9757-de332b9c9bf4": {
+      "ProjectGuid": "ff737bfc-a948-4338-9757-de332b9c9bf4",
+      "DisplayName": "Calculadora",
+      "ColorIndex": 0
+    },
+    "5c24082a-478c-4176-a523-fd614bc15230": {
+      "ProjectGuid": "5c24082a-478c-4176-a523-fd614bc15230",
+      "DisplayName": "UI",
+      "ColorIndex": 1
+    },
+    "122b249a-9e4d-4649-bab4-3fe0f34844e4": {
+      "ProjectGuid": "122b249a-9e4d-4649-bab4-3fe0f34844e4",
+      "DisplayName": "Calculadora.Control",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
