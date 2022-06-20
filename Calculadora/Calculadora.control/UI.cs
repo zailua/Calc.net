@@ -89,6 +89,7 @@ namespace Calculadora.control
 
         private void btnZerar_Click(object sender, EventArgs e)
         {
+            calc.Zerar();
             txtValue.Clear();
             txtResult.Clear();
             txtValue.Select();
@@ -99,19 +100,22 @@ namespace Calculadora.control
             
                 if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '-'))
                 {
-                e.Handled = true;
+                    e.Handled = true;
                 }
-                else if ((e.KeyChar == ',') && ((sender as TextBox).Text.IndexOf(',') > -1))
-                {
-                e.Handled = true;
+                else if ((e.KeyChar == ',') &&  ((sender as TextBox).SelectionStart == 0 || (sender as TextBox).Text.Contains(",") || ((sender as TextBox).Text.IndexOf('-') > -1)))
+                {         
+                    e.Handled = true;
                 }
                 else if(e.KeyChar == '-' && ((sender as TextBox).SelectionStart != 0 || (sender as TextBox).Text.Contains("-")))
-                {
-                e.Handled = true;
+                {      
+                    e.Handled = true;             
                 }
         }
 
-        
+        private void ClickEnviaValor(object sender, EventArgs e)
+        {
+            txtValue.Text += (sender as Button).Text;
+        }
     }
 }
 

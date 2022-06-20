@@ -9,3 +9,4 @@ C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.csproj.CopyComplete
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.Properties.Resources.resources
