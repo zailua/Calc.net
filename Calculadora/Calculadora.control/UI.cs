@@ -38,6 +38,10 @@ namespace Calculadora.control
         {
             if (txtValue.Text.Length == 0)
             {
+                txtValue.Text += (sender as Button).Text;          
+            }
+            else if (txtValue.Text[0] == '-' && txtValue.Text.Length < 1)
+            {
                 MessageBox.Show("Valor Inválido, por favor digite um número válido", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
@@ -115,6 +119,18 @@ namespace Calculadora.control
         private void ClickEnviaValor(object sender, EventArgs e)
         {
             txtValue.Text += (sender as Button).Text;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if(txtValue.Text.Length > 0) 
+            { 
+            txtValue.Text = txtValue.Text.Remove(txtValue.Text.Length - 1);
+            }
+            else
+            {
+            txtValue.Clear();
+            }
         }
     }
 }

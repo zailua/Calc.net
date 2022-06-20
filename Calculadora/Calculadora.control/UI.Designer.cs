@@ -47,6 +47,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSoma
@@ -79,7 +80,7 @@
             // 
             this.btnClear.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(212, 98);
+            this.btnClear.Location = new System.Drawing.Point(213, 98);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(38, 33);
             this.btnClear.TabIndex = 2;
@@ -117,9 +118,10 @@
             // 
             this.txtValue.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtValue.Location = new System.Drawing.Point(36, 39);
+            this.txtValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValue.Location = new System.Drawing.Point(36, 44);
             this.txtValue.Name = "txtValue";
-            this.txtValue.Size = new System.Drawing.Size(214, 20);
+            this.txtValue.Size = new System.Drawing.Size(171, 26);
             this.txtValue.TabIndex = 5;
             this.txtValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
@@ -277,12 +279,26 @@
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.ClickEnviaValor);
             // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(0)))));
+            this.button11.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(212, 44);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(38, 26);
+            this.button11.TabIndex = 20;
+            this.button11.Text = "<";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightPink;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -329,5 +345,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
     }
 }
