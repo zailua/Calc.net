@@ -4,3 +4,9 @@ C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora\obj\Debu
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora\obj\Debug\Calculadora.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora\bin\Debug\Calculadora.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora\obj\Debug\Calculadora.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

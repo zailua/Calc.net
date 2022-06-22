@@ -10,3 +10,15 @@ C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.pdb
 C:\Users\gabri\OneDrive\Área de Trabalho\Cigam\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.Properties.Resources.resources
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\bin\Debug\Calculadora.control.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\bin\Debug\Calculadora.control.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\bin\Debug\Calculadora.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\bin\Debug\Calculadora.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.Properties.Resources.resources
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.UI.resources
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.csproj.GenerateResource.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\CalculadoraGabriel\Calculadora\Calculadora.control\obj\Debug\Calculadora.control.pdb

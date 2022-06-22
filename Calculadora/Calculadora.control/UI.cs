@@ -22,7 +22,7 @@ namespace Calculadora.control
         Calculadora.Calculos calc = new Calculadora.Calculos();
         private void btnSoma_Click(object sender, EventArgs e)
         {   
-            if(txtValue.Text.Length == 0)
+            if(String.IsNullOrEmpty(txtValue.Text) || !txtValue.Text.All(char.IsDigit) && txtValue.Text.Length == 1)
             {
                 MessageBox.Show("Valor Inválido, por favor digite um número válido", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }else
@@ -36,13 +36,13 @@ namespace Calculadora.control
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            if (txtValue.Text.Length == 0)
+            if (!txtValue.Text.All(char.IsDigit) && txtValue.Text.Length == 1)
             {
-                txtValue.Text += (sender as Button).Text;          
+                MessageBox.Show("Valor Inválido, por favor digite um número válido", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);                      
             }
-            else if (txtValue.Text[0] == '-' && txtValue.Text.Length < 1)
+            else if (String.IsNullOrEmpty(txtValue.Text))
             {
-                MessageBox.Show("Valor Inválido, por favor digite um número válido", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtValue.Text += (sender as Button).Text;
             }
             else
             {
@@ -54,7 +54,7 @@ namespace Calculadora.control
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            if (txtValue.Text.Length == 0)
+            if (String.IsNullOrEmpty(txtValue.Text) || !txtValue.Text.All(char.IsDigit) && txtValue.Text.Length == 1)
             {
                 MessageBox.Show("Valor Inválido, por favor digite um número válido", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -73,7 +73,7 @@ namespace Calculadora.control
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            if (txtValue.Text.Length == 0)
+            if (String.IsNullOrEmpty(txtValue.Text) || !txtValue.Text.All(char.IsDigit) && txtValue.Text.Length == 1)
             {
                 MessageBox.Show("Valor Inválido, por favor digite um número válido", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -118,7 +118,7 @@ namespace Calculadora.control
 
         private void ClickEnviaValor(object sender, EventArgs e)
         {
-            txtValue.Text += (sender as Button).Text;
+            txtValue.Text += (sender as Button).Text;         
         }
 
         private void button11_Click(object sender, EventArgs e)

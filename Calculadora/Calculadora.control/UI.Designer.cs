@@ -57,7 +57,7 @@
             this.btnSoma.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSoma.Location = new System.Drawing.Point(212, 254);
             this.btnSoma.Name = "btnSoma";
-            this.btnSoma.Size = new System.Drawing.Size(38, 103);
+            this.btnSoma.Size = new System.Drawing.Size(38, 96);
             this.btnSoma.TabIndex = 0;
             this.btnSoma.Text = "+";
             this.btnSoma.UseVisualStyleBackColor = false;
